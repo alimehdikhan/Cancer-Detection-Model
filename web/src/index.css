@@ -1,0 +1,417 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import '@fontsource-variable/geist/wght.css';
+@import '@fontsource-variable/geist-mono/wght.css';
+
+/*
+ * "Precision" tokens (source: redesign/precision/work/tokens.mjs, contrast-checked).
+ * :root is light, .dark (set on <html> by the pre-paint script and useTheme) is dark.
+ * Colour carries category meaning only: mal / pre / ben; caution for warnings. Red (mal)
+ * is never used for errors.
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+
+  --canvas: oklch(0.986 0.0015 270);
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.968 0.003 270);
+  --viewer: oklch(0.175 0.004 270);
+  --line: oklch(0.22 0.01 270 / 0.1);
+  --line-strong: oklch(0.22 0.01 270 / 0.17);
+  --fg: oklch(0.205 0.008 270);
+  --fg-2: oklch(0.435 0.01 270);
+  --fg-3: oklch(0.525 0.012 270);
+  --accent-base: oklch(0.53 0.215 292);
+  --accent-soft: oklch(0.955 0.028 292);
+  --on-inverse: oklch(0.99 0 0);
+  --mal: oklch(0.575 0.2 22);
+  --mal-text: oklch(0.505 0.185 22);
+  --mal-soft: oklch(0.962 0.022 22);
+  --pre: oklch(0.64 0.155 52);
+  --pre-text: oklch(0.515 0.13 50);
+  --pre-soft: oklch(0.965 0.03 62);
+  --ben: oklch(0.585 0.085 242);
+  --ben-text: oklch(0.47 0.08 242);
+  --ben-soft: oklch(0.962 0.014 242);
+  --caution: oklch(0.655 0.135 80);
+  --caution-text: oklch(0.5 0.1 78);
+  --caution-soft: oklch(0.972 0.042 94);
+  --track: oklch(0.22 0.01 270 / 0.07);
+  --glow: oklch(0.53 0.215 292 / 0.16);
+
+  /* shadcn/ui variables */
+  --radius: 0.625rem;
+  --background: var(--canvas);
+  --foreground: var(--fg);
+  --card: var(--surface);
+  --card-foreground: var(--fg);
+  --popover: var(--surface);
+  --popover-foreground: var(--fg);
+  --primary: var(--fg);
+  --primary-foreground: var(--on-inverse);
+  --secondary: var(--surface-2);
+  --secondary-foreground: var(--fg);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--fg-2);
+  --accent: var(--accent-soft);
+  --accent-foreground: var(--accent-base);
+  --destructive: var(--caution-text);
+  --border: var(--line);
+  --input: var(--line-strong);
+  --ring: var(--accent-base);
+  --brand: var(--accent-base);
+}
+
+.dark {
+  color-scheme: dark;
+
+  --canvas: oklch(0.148 0.004 275);
+  --surface: oklch(0.182 0.005 275);
+  --surface-2: oklch(0.212 0.006 275);
+  --viewer: oklch(0.13 0.004 275);
+  --line: oklch(1 0 0 / 0.085);
+  --line-strong: oklch(1 0 0 / 0.15);
+  --fg: oklch(0.972 0.002 275);
+  --fg-2: oklch(0.79 0.006 275);
+  --fg-3: oklch(0.675 0.008 275);
+  --accent-base: oklch(0.725 0.165 292);
+  --accent-soft: oklch(0.255 0.06 292);
+  --on-inverse: oklch(0.15 0.004 275);
+  --mal: oklch(0.685 0.185 22);
+  --mal-text: oklch(0.76 0.14 22);
+  --mal-soft: oklch(0.245 0.05 22);
+  --pre: oklch(0.76 0.145 58);
+  --pre-text: oklch(0.815 0.12 62);
+  --pre-soft: oklch(0.25 0.045 58);
+  --ben: oklch(0.72 0.08 240);
+  --ben-text: oklch(0.81 0.065 240);
+  --ben-soft: oklch(0.235 0.028 240);
+  --caution: oklch(0.865 0.15 92);
+  --caution-text: oklch(0.885 0.125 92);
+  --caution-soft: oklch(0.245 0.04 92);
+  --track: oklch(1 0 0 / 0.07);
+  --glow: oklch(0.725 0.165 292 / 0.2);
+}
+
+@theme {
+  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-scan: scan 1.8s cubic-bezier(0.45, 0, 0.55, 1) infinite alternate;
+  --animate-gradient-pan: gradient-pan 8s linear infinite;
+  --animate-pulse-dot: pulse-dot 1.6s ease-in-out infinite;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  --animate-rise: rise 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--accent-soft);
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-viewer: var(--viewer);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-fg: var(--fg);
+  --color-fg-2: var(--fg-2);
+  --color-fg-3: var(--fg-3);
+  --color-on-inverse: var(--on-inverse);
+  --color-track: var(--track);
+  --color-glow: var(--glow);
+
+  --color-mal: var(--mal);
+  --color-mal-text: var(--mal-text);
+  --color-mal-soft: var(--mal-soft);
+  --color-pre: var(--pre);
+  --color-pre-text: var(--pre-text);
+  --color-pre-soft: var(--pre-soft);
+  --color-ben: var(--ben);
+  --color-ben-text: var(--ben-text);
+  --color-ben-soft: var(--ben-soft);
+  --color-caution: var(--caution);
+  --color-caution-text: var(--caution-text);
+  --color-caution-soft: var(--caution-soft);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: 14px;
+  --radius-2xl: 20px;
+}
+
+/* Typography helpers (spec section 3). */
+@utility text-display {
+  font-size: clamp(2.6rem, 5.4vw, 4.4rem);
+  line-height: 1.02;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+
+@utility text-h2 {
+  font-size: clamp(1.9rem, 3.4vw, 2.75rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h3 {
+  font-size: 1.1875rem;
+  line-height: 1.35;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg-3);
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Radial-faded mask for dot grids and glows. */
+@utility mask-radial-fade {
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 72%);
+}
+
+@utility mask-fade-b {
+  mask-image: linear-gradient(to bottom, black 55%, transparent);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+    /* = the sticky header (h-16): hash links and focused elements land just under it, not behind it. */
+    scroll-padding-top: 4rem;
+    scrollbar-color: var(--line-strong) var(--background);
+    caret-color: var(--brand);
+  }
+
+  body {
+    min-height: 100dvh;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background-color: var(--accent-soft);
+    color: var(--fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  button,
+  a,
+  label {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p,
+  li,
+  dd {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* ---------- Static keyframes for the magic components (no runtime <style>) ---------- */
+
+/* Scan line over the photo while the model reads it. */
+@keyframes scan {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+/* BorderBeam: a light travelling along the rounded rect of its parent (offset-path). */
+@keyframes border-beam {
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes gradient-pan {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* AnimatedBeam: a dash of light running along an SVG path (pathLength = 100). */
+@keyframes beam-dash {
+  from {
+    stroke-dashoffset: 120;
+  }
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+.border-beam {
+  offset-path: rect(0 auto auto 0 round var(--beam-radius, 14px));
+  offset-anchor: 50% 50%;
+  animation: border-beam var(--beam-duration, 6s) linear infinite;
+  animation-delay: var(--beam-delay, 0s);
+}
+
+.beam-dash {
+  stroke-dasharray: 20 200;
+  animation: beam-dash var(--beam-duration, 3s) linear infinite;
+  animation-delay: var(--beam-delay, 0s);
+}
+
+/* SpotlightCard: a radial gradient following the pointer through --spot-x / --spot-y. */
+.spotlight {
+  background-image: radial-gradient(
+    var(--spot-size, 380px) circle at var(--spot-x, 50%) var(--spot-y, -40%),
+    color-mix(in oklab, var(--brand) 11%, transparent),
+    transparent 70%
+  );
+}
+
+/* Bars that spring to their value (results and metrics). Set width via scaleX. */
+.bar-fill {
+  transform-origin: left center;
+  transition: transform 640ms var(--ease-out-quint);
+}
+
+/* Reveal on scroll: add .reveal, then .is-visible once in view (see useInView / <Reveal>). */
+.reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 520ms var(--ease-out-quint),
+    transform 520ms var(--ease-out-quint);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .border-beam,
+  .beam-dash,
+  .animate-scan {
+    animation: none !important;
+    display: none;
+  }
+
+  .animate-pulse-dot,
+  .animate-shimmer,
+  .animate-gradient-pan,
+  .animate-rise,
+  .animate-pulse {
+    animation: none !important;
+  }
+
+  .bar-fill,
+  .reveal {
+    transition: none !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

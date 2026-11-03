@@ -1,0 +1,754 @@
+[
+  {
+    "id": "akiec-1",
+    "kind": "dermoscopy",
+    "class": "akiec",
+    "class_name": "actinic keratosis / intraepithelial carcinoma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/akiec-1-800.webp",
+      "400": "/images/akiec-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 600,
+        "bytes": 23192
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 8384
+      }
+    },
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "diagnosis_hierarchy": [
+      "Malignant",
+      "Malignant epidermal proliferations",
+      "Squamous cell carcinoma in situ"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0021071",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0021071/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0021071/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0021071, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 3072,
+    "original_height": 2304,
+    "width": 800,
+    "height": 600,
+    "alt": "Dermoscopic image of a squamous cell carcinoma in situ (ISIC_0021071)"
+  },
+  {
+    "id": "akiec-2",
+    "kind": "dermoscopy",
+    "class": "akiec",
+    "class_name": "actinic keratosis / intraepithelial carcinoma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/akiec-2-800.webp",
+      "400": "/images/akiec-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 600,
+        "bytes": 18126
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 6804
+      }
+    },
+    "diagnosis": "Solar or actinic keratosis",
+    "diagnosis_hierarchy": [
+      "Indeterminate",
+      "Indeterminate epidermal proliferations",
+      "Solar or actinic keratosis"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0010512",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0010512/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0010512/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0010512, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1024,
+    "original_height": 768,
+    "width": 800,
+    "height": 600,
+    "alt": "Dermoscopic image of an actinic keratosis (ISIC_0010512)"
+  },
+  {
+    "id": "bcc-1",
+    "kind": "dermoscopy",
+    "class": "bcc",
+    "class_name": "basal cell carcinoma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/bcc-1-800.webp",
+      "400": "/images/bcc-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 527,
+        "bytes": 52108
+      },
+      "400": {
+        "width": 400,
+        "height": 263,
+        "bytes": 17090
+      }
+    },
+    "diagnosis": "Basal cell carcinoma",
+    "diagnosis_hierarchy": [
+      "Malignant",
+      "Malignant adnexal epithelial proliferations - Follicular",
+      "Basal cell carcinoma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0011752",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0011752/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0011752/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0011752, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 6671,
+    "original_height": 4391,
+    "width": 800,
+    "height": 527,
+    "alt": "Dermoscopic image of a basal cell carcinoma (ISIC_0011752)"
+  },
+  {
+    "id": "bcc-2",
+    "kind": "dermoscopy",
+    "class": "bcc",
+    "class_name": "basal cell carcinoma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/bcc-2-800.webp",
+      "400": "/images/bcc-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 533,
+        "bytes": 29818
+      },
+      "400": {
+        "width": 400,
+        "height": 266,
+        "bytes": 9862
+      }
+    },
+    "diagnosis": "Basal cell carcinoma",
+    "diagnosis_hierarchy": [
+      "Malignant",
+      "Malignant adnexal epithelial proliferations - Follicular",
+      "Basal cell carcinoma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0011642",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0011642/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0011642/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0011642, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 6668,
+    "original_height": 4439,
+    "width": 800,
+    "height": 533,
+    "alt": "Dermoscopic image of a basal cell carcinoma (ISIC_0011642)"
+  },
+  {
+    "id": "bkl-1",
+    "kind": "dermoscopy",
+    "class": "bkl",
+    "class_name": "benign keratosis",
+    "role": "class-example",
+    "files": {
+      "800": "/images/bkl-1-800.webp",
+      "400": "/images/bkl-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 600,
+        "bytes": 20064
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 8164
+      }
+    },
+    "diagnosis": "Seborrheic keratosis",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign epidermal proliferations",
+      "Seborrheic keratosis"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0001104",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0001104/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0001104/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0001104, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 3072,
+    "original_height": 2304,
+    "width": 800,
+    "height": 600,
+    "alt": "Dermoscopic image of a seborrheic keratosis (ISIC_0001104)"
+  },
+  {
+    "id": "bkl-2",
+    "kind": "dermoscopy",
+    "class": "bkl",
+    "class_name": "benign keratosis",
+    "role": "class-example",
+    "files": {
+      "800": "/images/bkl-2-800.webp",
+      "400": "/images/bkl-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 529,
+        "bytes": 60232
+      },
+      "400": {
+        "width": 400,
+        "height": 264,
+        "bytes": 17632
+      }
+    },
+    "diagnosis": "Seborrheic keratosis",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign epidermal proliferations",
+      "Seborrheic keratosis"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0011911",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0011911/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0011911/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0011911, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 6688,
+    "original_height": 4419,
+    "width": 800,
+    "height": 529,
+    "alt": "Dermoscopic image of a seborrheic keratosis (ISIC_0011911)"
+  },
+  {
+    "id": "df-1",
+    "kind": "dermoscopy",
+    "class": "df",
+    "class_name": "dermatofibroma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/df-1-800.webp",
+      "400": "/images/df-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 800,
+        "bytes": 24826
+      },
+      "400": {
+        "width": 400,
+        "height": 400,
+        "bytes": 8280
+      }
+    },
+    "diagnosis": "Dermatofibroma",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign soft tissue proliferations - Fibro-histiocytic",
+      "Dermatofibroma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0001114",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0001114/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0001114/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0001114, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1936,
+    "original_height": 1936,
+    "width": 800,
+    "height": 800,
+    "alt": "Dermoscopic image of a dermatofibroma (ISIC_0001114)"
+  },
+  {
+    "id": "df-2",
+    "kind": "dermoscopy",
+    "class": "df",
+    "class_name": "dermatofibroma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/df-2-800.webp",
+      "400": "/images/df-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 534,
+        "bytes": 32778
+      },
+      "400": {
+        "width": 400,
+        "height": 267,
+        "bytes": 11910
+      }
+    },
+    "diagnosis": "Dermatofibroma",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign soft tissue proliferations - Fibro-histiocytic",
+      "Dermatofibroma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0011677",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0011677/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0011677/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0011677, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 6648,
+    "original_height": 4439,
+    "width": 800,
+    "height": 534,
+    "alt": "Dermoscopic image of a dermatofibroma (ISIC_0011677)"
+  },
+  {
+    "id": "mel-1",
+    "kind": "dermoscopy",
+    "class": "mel",
+    "class_name": "melanoma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/mel-1-800.webp",
+      "400": "/images/mel-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 601,
+        "bytes": 35772
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 12032
+      }
+    },
+    "diagnosis": "Melanoma in situ",
+    "diagnosis_hierarchy": [
+      "Malignant",
+      "Malignant melanocytic proliferations (Melanoma)",
+      "Melanoma in situ"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0000049",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0000049/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0000049/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0000049, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1504,
+    "original_height": 1129,
+    "width": 800,
+    "height": 601,
+    "alt": "Dermoscopic image of a melanoma in situ (ISIC_0000049)"
+  },
+  {
+    "id": "mel-2",
+    "kind": "dermoscopy",
+    "class": "mel",
+    "class_name": "melanoma",
+    "role": "class-example",
+    "files": {
+      "800": "/images/mel-2-800.webp",
+      "400": "/images/mel-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 600,
+        "bytes": 14042
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 5636
+      }
+    },
+    "diagnosis": "Melanoma Invasive",
+    "diagnosis_hierarchy": [
+      "Malignant",
+      "Malignant melanocytic proliferations (Melanoma)",
+      "Melanoma Invasive"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0000013",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0000013/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0000013/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0000013, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1022,
+    "original_height": 767,
+    "width": 800,
+    "height": 600,
+    "alt": "Dermoscopic image of an invasive melanoma (ISIC_0000013)"
+  },
+  {
+    "id": "nv-1",
+    "kind": "dermoscopy",
+    "class": "nv",
+    "class_name": "melanocytic nevus",
+    "role": "class-example",
+    "files": {
+      "800": "/images/nv-1-800.webp",
+      "400": "/images/nv-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 536,
+        "bytes": 11808
+      },
+      "400": {
+        "width": 400,
+        "height": 268,
+        "bytes": 4396
+      }
+    },
+    "diagnosis": "Nevus, Congenital",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign melanocytic proliferations",
+      "Nevus",
+      "Nevus, Congenital"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0001109",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0001109/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0001109/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0001109, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 3872,
+    "original_height": 2592,
+    "width": 800,
+    "height": 536,
+    "alt": "Dermoscopic image of a congenital melanocytic nevus (ISIC_0001109)"
+  },
+  {
+    "id": "nv-2",
+    "kind": "dermoscopy",
+    "class": "nv",
+    "class_name": "melanocytic nevus",
+    "role": "class-example",
+    "files": {
+      "800": "/images/nv-2-800.webp",
+      "400": "/images/nv-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 600,
+        "bytes": 16472
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 4894
+      }
+    },
+    "diagnosis": "Nevus, Lentiginous",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign melanocytic proliferations",
+      "Nevus",
+      "Nevus, Lentiginous"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0009871",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0009871/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0009871/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0009871, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1024,
+    "original_height": 768,
+    "width": 800,
+    "height": 600,
+    "alt": "Dermoscopic image of a lentiginous melanocytic nevus (ISIC_0009871)"
+  },
+  {
+    "id": "vasc-1",
+    "kind": "dermoscopy",
+    "class": "vasc",
+    "class_name": "vascular lesion",
+    "role": "class-example",
+    "files": {
+      "800": "/images/vasc-1-800.webp",
+      "400": "/images/vasc-1-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 800,
+        "bytes": 31162
+      },
+      "400": {
+        "width": 400,
+        "height": 400,
+        "bytes": 10380
+      }
+    },
+    "diagnosis": "Hemangioma",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign soft tissue proliferations - Vascular",
+      "Hemangioma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0001115",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0001115/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0001115/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0001115, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1936,
+    "original_height": 1936,
+    "width": 800,
+    "height": 800,
+    "alt": "Dermoscopic image of a hemangioma (ISIC_0001115)"
+  },
+  {
+    "id": "vasc-2",
+    "kind": "dermoscopy",
+    "class": "vasc",
+    "class_name": "vascular lesion",
+    "role": "class-example",
+    "files": {
+      "800": "/images/vasc-2-800.webp",
+      "400": "/images/vasc-2-400.webp"
+    },
+    "sizes": {
+      "800": {
+        "width": 800,
+        "height": 533,
+        "bytes": 34914
+      },
+      "400": {
+        "width": 400,
+        "height": 266,
+        "bytes": 13476
+      }
+    },
+    "diagnosis": "Angiokeratoma",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign soft tissue proliferations - Vascular",
+      "Angiokeratoma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0014990",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0014990/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0014990/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0014990, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 6641,
+    "original_height": 4421,
+    "width": 800,
+    "height": 533,
+    "alt": "Dermoscopic image of an angiokeratoma (ISIC_0014990)"
+  },
+  {
+    "id": "hero-1",
+    "kind": "dermoscopy",
+    "class": "vasc",
+    "class_name": "vascular lesion",
+    "role": "hero",
+    "files": {
+      "1400": "/images/hero-1-1400.webp",
+      "800": "/images/hero-1-800.webp",
+      "400": "/images/hero-1-400.webp"
+    },
+    "sizes": {
+      "1400": {
+        "width": 1400,
+        "height": 1400,
+        "bytes": 83176
+      },
+      "800": {
+        "width": 800,
+        "height": 800,
+        "bytes": 31162
+      },
+      "400": {
+        "width": 400,
+        "height": 400,
+        "bytes": 10380
+      }
+    },
+    "diagnosis": "Hemangioma",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign soft tissue proliferations - Vascular",
+      "Hemangioma"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0001115",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0001115/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0001115/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0001115, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1936,
+    "original_height": 1936,
+    "width": 800,
+    "height": 800,
+    "alt": "Dermoscopic image of a hemangioma (ISIC_0001115)"
+  },
+  {
+    "id": "hero-2",
+    "kind": "dermoscopy",
+    "class": "nv",
+    "class_name": "melanocytic nevus",
+    "role": "hero",
+    "files": {
+      "1400": "/images/hero-2-1400.webp",
+      "800": "/images/hero-2-800.webp",
+      "400": "/images/hero-2-400.webp"
+    },
+    "sizes": {
+      "1400": {
+        "width": 1400,
+        "height": 937,
+        "bytes": 27912
+      },
+      "800": {
+        "width": 800,
+        "height": 536,
+        "bytes": 11808
+      },
+      "400": {
+        "width": 400,
+        "height": 268,
+        "bytes": 4396
+      }
+    },
+    "diagnosis": "Nevus, Congenital",
+    "diagnosis_hierarchy": [
+      "Benign",
+      "Benign melanocytic proliferations",
+      "Nevus",
+      "Nevus, Congenital"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0001109",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0001109/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0001109/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0001109, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 3872,
+    "original_height": 2592,
+    "width": 800,
+    "height": 536,
+    "alt": "Dermoscopic image of a congenital melanocytic nevus (ISIC_0001109)"
+  },
+  {
+    "id": "hero-3",
+    "kind": "dermoscopy",
+    "class": "mel",
+    "class_name": "melanoma",
+    "role": "hero",
+    "files": {
+      "1400": "/images/hero-3-1400.webp",
+      "800": "/images/hero-3-800.webp",
+      "400": "/images/hero-3-400.webp"
+    },
+    "sizes": {
+      "1400": {
+        "width": 1400,
+        "height": 1051,
+        "bytes": 69828
+      },
+      "800": {
+        "width": 800,
+        "height": 601,
+        "bytes": 35772
+      },
+      "400": {
+        "width": 400,
+        "height": 300,
+        "bytes": 12032
+      }
+    },
+    "diagnosis": "Melanoma in situ",
+    "diagnosis_hierarchy": [
+      "Malignant",
+      "Malignant melanocytic proliferations (Melanoma)",
+      "Melanoma in situ"
+    ],
+    "diagnosis_confirm_type": "histopathology",
+    "source": "ISIC Archive",
+    "source_id": "ISIC_0000049",
+    "source_url": "https://api.isic-archive.com/images/ISIC_0000049/",
+    "api_url": "https://api.isic-archive.com/api/v2/images/ISIC_0000049/",
+    "licence": "CC-0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous",
+    "credit": "ISIC_0000049, ISIC Archive (Anonymous), CC0 1.0 public domain",
+    "original_width": 1504,
+    "original_height": 1129,
+    "width": 800,
+    "height": 601,
+    "alt": "Dermoscopic image of a melanoma in situ (ISIC_0000049)"
+  }
+]

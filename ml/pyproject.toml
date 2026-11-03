@@ -1,0 +1,13 @@
+[project]
+name = "skin-ml"
+version = "1.0.0"
+description = "Training pipeline for the HAM10000 skin lesion classifier"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["skin_ml"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]

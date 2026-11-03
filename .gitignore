@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Data, training runs and model artifacts (large; distribute separately)
+data/
+runs/
+models/*
+!models/.gitkeep
+
+# Node
+node_modules/
+web/dist/
+
+# Environment and editors
+.env
+.DS_Store
+.idea/
+.vscode/
